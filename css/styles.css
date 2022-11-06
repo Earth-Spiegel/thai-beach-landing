@@ -71,7 +71,7 @@ iframe {
     
     p {
         font-size: 18px;
-        margin-top: 12px;
+        margin: 12px 8px 0 8px;
         order: 0;
         color: #fefae0;
     }
