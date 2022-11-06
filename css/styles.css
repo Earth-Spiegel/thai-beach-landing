@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding:0:
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/thailand-1.jpg);
+    font-family: 'Merriweather', serif;
+}
+
+#header {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-flow:column wrap;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #121212;
+    font-size: 96px;
+}
+
+p {
+    color: #121212;
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+button {
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 16px;
+    border: solid 1px black;
+    border-radius: 14px;
+    margin-top: 36px;
+    margin-left: 225px;
+    background-color: #023047;
+    color: #fefae0;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    #header {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    div {
+        margin-top: -84px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background-color: #023047a9;
+        border-radius: 18px;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 18px;
+        margin-top: 12px;
+        order: 0;
+        color: #fefae0;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: #fefae0;
+        order: 0;
+    }
+
+    button {
+        background-color: #023047a9;
+        color: #fefae0;
+        margin: 25px 0 0 20px;
+        order: 4;
+    }
+
+    iframe {
+        margin-top: -18px;
+        width: 75vw;
+        height: 40vh;
+        order: -2;
+    }
+}
+
+
+
+/* 
+div {
+    margin: 300px 50px 0 75px;
+}
+
+h1 {
+    font-size: 80px;
+    font-style: italic;
+}
+
+p {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #fd9e02;
+    border: solid 1px black;
+    margin-top: 40px;
+    margin-left: 14px;
+    padding: 18px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+iframe {
+    margin-top: 230px;
+    margin-right: 75px;
+    border-radius: 25px;
+}
+
+ */
